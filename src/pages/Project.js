@@ -22,12 +22,20 @@ const Project = () => {
         <ul className='projects-practice'>
           <h3> - Practices - </h3>
           <li>
+            <a href="https://jeff2hu.github.io/monster-list/">Monster-List : </a>
+            <span>Use the React to layout (React)</span>
+          </li>
+          <li>
             <a href="https://jeff2hu.github.io/taiwan-weather/">Taiwan-weather-map:</a>
             <span>Use CWB api to check the weather (Rwd/React)</span>
           </li>
           <li>
             <a href="https://jeff2hu.github.io/morseCode/">MorseCode-transition:</a>
-            <span>Use Javascript to translate and sound (React)</span>
+            <span>Use React & Js to translate and sound (React)</span>
+          </li>
+          <li>
+            <a href="https://jeff2hu.github.io/expense/">Expense:</a>
+            <span>Use React to build a Consumer details (React)</span>
           </li>
         </ul>
       </div>
