@@ -15,10 +15,10 @@ function App() {
       <Header />
       <Nav />
       <Routes>
-        <Route path='/resume' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/project' element={<Project />} />
+        <Route path='/resume/' element={<About />} />
+        <Route path='/contact/' element={<Contact />} />
+        <Route path='/experience/' element={<Experience />} />
+        <Route path='/project/' element={<Project />} />
       </Routes>
       <Footer />
     </div>
