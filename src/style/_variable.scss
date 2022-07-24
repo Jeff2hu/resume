@@ -1,0 +1,11 @@
+:root{
+  --primary:rgb(113, 90, 81);
+  --secondary:rgba(235, 224, 212, 0.8);
+  --background:linear-gradient(150deg, rgba(255, 166, 0,.3) 30%,rgba(180, 150, 41, 0.5)40%,rgba(69, 62, 0, 0.667));
+}
+
+.active{
+  color:rgb(255, 207, 117) !important;
+  opacity: 1 !important;
+  transition: all .5s ease;
+}

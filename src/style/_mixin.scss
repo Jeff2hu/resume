@@ -1,0 +1,23 @@
+@mixin logo {
+  text-indent:101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin d-flex($justify:center,$align:center){
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin absolute($top:50%,$left:50%,$transTop:-50%,$transLeft:-50%){
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate($transTop,$transLeft);
+}
+
+@mixin container($width:840px,$x:0,$y:0) {
+  width: $width;
+  padding: $x $y;
+}

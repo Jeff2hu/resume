@@ -1,0 +1,46 @@
+.experiences{
+  background-color: var(--secondary);
+  .container{
+    @include container(740px,80px,50px);
+  }
+  &-2018,&-2017,&-2019,&-now{
+    @include d-flex(space-between,flex-start);
+    margin-bottom: 50px;
+    &__year,&__work{
+      width: 20%;
+      h3{
+        font-size: 28px;
+        font-weight: 600;
+        color:var(--primary);
+      }
+      p{
+        margin-top: 10px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        color:#666;
+      }
+    }
+    &__chart{
+      &__circle{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: brown;
+        position: relative;
+        &::after{
+          width: 3px;
+          height: 135px;
+          content:"";
+          @include absolute(100%,50%,-50%,0);
+          background-color: rgba(212, 91, 91,.5);
+        }
+      }
+    }
+    &__work{
+      width: 60%;
+    }
+  }
+  &-now{
+    margin-bottom: 20px;
+  }
+}
