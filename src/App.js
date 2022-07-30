@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Nav />
       <Routes>
-        <Route path='/' element={<About />} />
+        <Route path='/resume' />
           <Route index element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='experience' element={<Experience />} />

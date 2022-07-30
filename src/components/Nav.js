@@ -5,7 +5,7 @@ const Nav = () => {
 
   const [active,setActive] = useState(0);
   const nav = [
-    {class:"fa-solid fa-address-card",text:"About",to:"/"},
+    {class:"fa-solid fa-address-card",text:"About",to:"/resume"},
     {class:"fa-solid fa-briefcase",text:"Experience",to:"/experience"},
     {class:"fa-solid fa-file",text:"Project",to:"/project"},
     {class:"fa-solid fa-envelope",text:"Contact",to:"/contact"},
