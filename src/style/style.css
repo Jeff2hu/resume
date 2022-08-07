@@ -267,38 +267,43 @@ body {
   width: 740px;
   padding: 50px 50px;
 }
-.about-myself, .about-school, .about-skill {
-  margin-bottom: 30px;
-}
-.about-myself h2, .about-school h2, .about-skill h2 {
-  font-size: 36px;
+.about-myself, .about-school, .about-skill, .about-interesting, .about-language {
   color: var(--primary);
+  margin-bottom: 50px;
+}
+.about-myself h2, .about-school h2, .about-skill h2, .about-interesting h2, .about-language h2 {
+  color: var(--primary);
+  opacity: 0.6;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-.about-myself p, .about-school p, .about-skill p {
+.about-myself p, .about-school p, .about-skill p, .about-interesting p, .about-language p {
   letter-spacing: 1px;
   line-height: 20px;
   padding: 10px;
-  color: #444;
 }
-.about-school p {
+.about-school p, .about-language p, .about-skill p {
+  margin-left: 10px;
   font-size: 24px;
+  font-weight: 600;
+  color: var(--primary);
 }
-.about-skill {
+.about-school p span, .about-language p span, .about-skill p span {
+  font-size: 16px;
+}
+.about-interesting {
   margin-bottom: 0;
 }
-.about-skill ul {
+.about-interesting ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  color: var(--primary);
   text-align: center;
   font-weight: 600;
 }
-.about-skill ul li {
-  width: 30%;
+.about-interesting ul li {
+  width: 20%;
   margin-top: 10px;
 }
 
