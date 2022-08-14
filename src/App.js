@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -8,21 +8,25 @@ import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Project from "./pages/Project";
 import './style/style.css';
+import Loading from "./pages/Loading";
 
 function App() {
+
+  const [ follow,setFollow ] = useState(false);
+
   return (
-    <div>
+    <>
+      <Loading setFollow={setFollow} follow={follow}/>
       <Header />
       <Nav />
       <Routes>
-        <Route path="/" element={<About />} />
         <Route path='resume' element={<About />}/>
         <Route path='contact' element={<Contact />} />
         <Route path='experience' element={<Experience />} />
         <Route path='project' element={<Project />} />
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

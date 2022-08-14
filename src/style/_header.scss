@@ -21,7 +21,6 @@
       @include absolute(70px,50%,0,0);
       white-space: nowrap;
       overflow: hidden;
-      animation: name_typing 2s ease-in;
       span{
         margin-left: 1rem;
         font-size: 1.6rem;
@@ -63,38 +62,10 @@
         margin-bottom: 10px;
         white-space: nowrap;
         overflow: hidden;
-        animation: job_typing 2s ease-out;
       }
       span{
         margin-left: 20px;
       }
     }
-  }
-}
-
-@keyframes job_typing {
-  from{
-    width: 0;
-  }
-  to{
-    width: 270px;
-  }
-}
-
-@keyframes name_typing {
-  0%{
-    width: 0;
-  }
-  30%{
-    transform: rotate(270deg);
-  }
-  45%{
-    transform: rotate(-30deg);
-  }
-  60%{
-    transform: rotate(30deg);
-  }
-  100%{
-    width: 320px;
   }
 }
