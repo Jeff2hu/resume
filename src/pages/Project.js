@@ -7,6 +7,10 @@ const Project = () => {
         <ul className='projects-project'>
         <h3> - Working - </h3>
           <li>
+            <a href="https://jeff2hu.github.io/hextodo/">Todo-List(Login) :</a>
+            <span>Use api to manage account and React to complete. (React)</span>
+          </li>
+          <li>
             <a href="https://jeff2hu.github.io/crwn-clothing/">Crwn-Clothing :</a>
             <span>Use Firebase and React to complete. (React)</span>
           </li>
@@ -14,10 +18,6 @@ const Project = () => {
           <li>
             <a href="https://jeff2hu.github.io/web-photo">Searching :</a>
             <span>Use Pexels api to search the photo (React)</span>
-          </li>
-          <li>
-            <a href="https://jeff2hu.github.io/todolist/">Todo-List(Login):</a>
-            <span>Use React & React-Bootstrap  (React/Bootstrap)</span>
           </li>
           <li>
             <a href="https://jeff2hu.github.io/Hamburger-RWD-/">Hamburger-Restaurant : </a>
