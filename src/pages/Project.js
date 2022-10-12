@@ -7,7 +7,7 @@ const Project = () => {
         <ul className='projects-project'>
         <h3> - Working - </h3>
           <li>
-            <a href="https://jeff2hu.github.io/hextodo/">Todo-List(Login) :</a>
+            <a href="https://jeff2hu.github.io/api-todolist/">Todo-List(api-Login) :</a>
             <span>Use api to manage account and React to complete. (React)</span>
           </li>
           <li>
